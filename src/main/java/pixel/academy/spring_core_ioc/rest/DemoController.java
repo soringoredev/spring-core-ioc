@@ -11,14 +11,8 @@ public class DemoController {
     private Chef myChef;
 
     // constructor
-//    @Autowired
-//    public DemoController(Chef theChef) {
-//        myChef = theChef;
-//    }
-
-    // setter injection
     @Autowired
-    public void setMyChef(Chef theChef) {
+    public DemoController(Chef theChef) {
         myChef = theChef;
     }
 
