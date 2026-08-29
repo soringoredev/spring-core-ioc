@@ -26,6 +26,7 @@ public class MexicanChef implements Chef {
     public void initializeBean() {
         System.out.println("Bean initialized. " + getClass().getSimpleName());
     }
+
     // destroy method
     @PreDestroy
     public void cleanup() {
