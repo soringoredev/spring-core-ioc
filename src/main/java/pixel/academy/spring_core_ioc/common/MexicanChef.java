@@ -21,17 +21,17 @@ public class MexicanChef implements Chef {
         System.out.println("In constructor: " + getClass().getSimpleName());
     }
 
-    // init method
-    @PostConstruct
-    public void initializeBean() {
-        System.out.println("Bean initialized. " + getClass().getSimpleName());
-    }
-
-    // destroy method
-    @PreDestroy
-    public void cleanup() {
-        System.out.println("Bean is about to be destroyed. " + getClass().getSimpleName());
-    }
+//    // init method
+//    @PostConstruct
+//    public void initializeBean() {
+//        System.out.println("Bean initialized. " + getClass().getSimpleName());
+//    }
+//
+//    // destroy method
+//    @PreDestroy
+//    public void cleanup() {
+//        System.out.println("Bean is about to be destroyed. " + getClass().getSimpleName());
+//    }
 
 
 
